@@ -1,0 +1,83 @@
+body {
+	background: #c02425; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#f0cb35,
+		#c02425
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#f0cb35,
+		#c02425
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-1 {
+	height: 50px;
+	padding-top: 10px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.t-stroke {
+	color: transparent;
+	-moz-text-stroke-width: 2px;
+	-webkit-text-stroke-width: 2px;
+	-moz-text-stroke-color: #000000;
+	-webkit-text-stroke-color: #f0cb35;
+}
+
+.t-shadow {
+	text-shadow: 12px 12px #c02425;
+}
+.container {
+	margin: auto;
+}
+
+#answer {
+	width: 360px;
+	border-radius: 10px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+input {
+	font-size: 50px;
+	width: 80px;
+	height: 65px;
+	margin: 5px;
+	border: 0px solid;
+	border-radius: 8px;
+	background: rgba(230, 230, 230, 0.6);
+	outline: none;
+	color: black;
+	text-shadow: 2px 2px 2px white;
+}
+
+.calc {
+	background: rgb(220, 220, 220);
+	padding: 10px;
+	border-radius: 20px;
+	display: inline-block;
+	background: url(iron-man-min.png) no-repeat 0px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+input {
+	box-shadow: 5px 5px 5px grey, -5px -5px 5px white;
+}
+
+input:hover {
+	box-shadow: inset 5px 5px 5px grey, inset -5px -5px 5px white;
+}
+
+#answer {
+	box-shadow: inset 5px 5px 5px grey, inset -5px -5px 5px white;
+}
+#answer::placeholder {
+	font-size: 50px;
+}
+.calc {
+	box-shadow: 5px 5px 5px grey, -5px -5px 5px grey;
+}
